@@ -7,12 +7,13 @@ sidebar: mydoc_sidebar
 topnav: topnav
 toc: false
 #permalink: index.html
-summary: The procedures shown below are the NCEI internal procedures for the ingest and archival of existing Regional Association data streams. This information is provided as an insight into how the internal processing for NCEI work to ingest and archive data that are formatted closely to the <a href="https://www.nodc.noaa.gov/data/formats/netcdf/v1.1/index.html">NODC NetCDF Templates v1.1</a>. These procedures are intended to be listed as guidance for data providers. As can be seen below, not every case is the same and it is not a requirement for the data providers to follow the examples provided herein. These examples are provided as guidance to the varying capabilities the NCEI archive has.
+summary: The procedures shown below are the NCEI internal procedures for the ingest and archival of existing Regional Association data streams. These procedures are intended to be listed as guidance for data providers. 
 ---
 
 <!--
 https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/example-archive-procedures
 -->
+This information is provided as an insight into how the internal processing for NCEI work to ingest and archive data that are formatted closely to the <a href="https://www.nodc.noaa.gov/data/formats/netcdf/v1.1/index.html">NODC NetCDF Templates v1.1</a>. As can be seen below, not every case is the same and it is not a requirement for the data providers to follow the examples provided herein. These examples are provided as guidance to the varying capabilities the NCEI archive has.
 
 ## Southeast Coastal Ocean Observing Regional Association (SECOORA)
 

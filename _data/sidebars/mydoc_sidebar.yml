@@ -169,7 +169,7 @@ entries:
     folderitems:
 
     - title: "Southeast Coastal Ocean Observing Regional Association (SECOORA)"
-      url: /procedures.html#southeast-coastal-ocean-observing-regional-association-secoora
+      url: /procedures.html
       output: web
 
     - title: "Great Lakes Observing System (GLOS)"
