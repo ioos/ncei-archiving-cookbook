@@ -1,4 +1,4 @@
 # 
-Data and metadata services for animal telemetry.
+A Guide for IOOS Regional Association Data Managers on archiving data at NCEI
 
-See website at http://ioos.github.io/animal-telemetry .
+See website at http://ioos.github.io/ncei-archiving-cookbook/

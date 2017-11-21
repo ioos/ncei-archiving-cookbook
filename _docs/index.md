@@ -189,6 +189,11 @@ Approximately one month after you have been notified that a package has been arc
  * To search through the [Geoportal](https://data.nodc.noaa.gov/geoportal/catalog/search/search.page) use the following [Geoportal Tips Page](https://data.nodc.noaa.gov/geoportal/catalog/searchtips/searchtips.page) to assist in developing the appropriate query.
  * All IOOS Regional Association and Data Assembly Center data will be tagged with the following metadata key: ["Integrated Ocean Observing System Data Assembly Centers Data Stewardship Program"](https://data.nodc.noaa.gov/geoportal/rest/find/document?searchText=%22Integrated%20Ocean%20Observing%20System%20Data%20Assembly%20Centers%20Data%20Stewardship%20Program%22&start=1&max=50&contentOption=intersecting&f=searchPage) (The link directs you to the pre-queried Geoportal search page for the project "Integrated Ocean Observing System Data Assembly Centers Data Stewardship Program"). 
 
+------------------------------------------------------------------------------------------------------------
+
+## References
+
+[RA Data Transfer Decision Tree](./RA Data Transfer Decision Tree for google site.pdf)
 
 
 
