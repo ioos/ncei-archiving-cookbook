@@ -2,7 +2,7 @@
 
 entries:
 - title: sidebar
-  product: "The text that appear on top of the side menu"
+  product: "NCEI Archiving Cookbook"
   levels: two
   version: 
   folders:
@@ -20,66 +20,159 @@ entries:
       output: pdf
       type: frontmatter
 
-# Always visible folder name that contains top-level menu items with links to 1st document/page
-  - title: "Homepage [First Document]"
+  - title: "Archiving your data at NCEI"
     output: web
 
     folderitems:
 
-# Top-level menu item #1
-    - title: "Homepage Header 1"
-# A link to the 1st rendered document; consists of '/'+'markdown-document-name'+'.html'[+'#'+'any-header-or-other-anchor-on-the-page'
-      url: /index.html#header-1
+    - title: "Big Picture Perspective"
+      url: /index.html
       output: web
 
-    - title: "Homepage Header 2"
-      url: /index.html#header-2
+    - title: "Selecting the Data to be Archived"
+      url: /index.html#selecting-the-data-to-be-archived
       output: web
 
-    - title: "Homepage Header 3"
-      url: /index.html#header-3
+    - title: "Formatting Your Data"
+      url: /index.html#formatting-your-data
       output: web
 
-#Always visible folder name that contains top-level menu items with links to 2nd document/page
-  - title: "Second document"
+    - title: "Providing Data Integrity"
+      url: /index.html#providing-data-integrity
+      output: web
+
+    - title: "Organizing Your Data"
+      url: /index.html#organizing-your-data
+      output: web
+
+    - title: "Determine the Web Tool for Documenting and Submitting Your Data"
+      url: /index.html#determine-the-web-tool-for-documenting-and-submitting-your-data
+      output: web
+
+    - title: "Documenting Your Data"
+      url: /index.html#documenting-your-data
+      output: web
+
+    - title: "Developing a Record in the Appropriate Web Tool"
+      url: /index.html#developing-a-record-in-the-appropriate-web-tool
+      output: web
+
+    - title: "Posting the Data to be Archived"
+      url: /index.html#posting-the-data-to-be-archived
+      output: web
+
+    - title: "Monitoring Archival Procedures"
+      url: /index.html#monitoring-archival-procedures
+      output: web
+
+    - title: "Access Archived Data"
+      url: /index.html#access-archived-data
+      output: web
+
+  - title: "ATRAC Guidance"
     output: web
 
     folderitems:
 
-#A link to the 2nd rendered document; consists of '/'+'markdown-document-name'+'.html'[+'#'+'any-header-or-other-anchor-on-the-page', e.g. '
-    - title: "Second Document Header 1"
-      url: /doc-template.html#header-1
+    - title: "Guidelines on populating the ATRAC record"
+      url: /atrac.html
       output: web
 
-    - title: "Second Document Header 2"
-      url: /doc-template.html#header-2
+  - title: "Standard Practices for Ensuring Data Integrity"
+    output: web
+
+    folderitems:
+
+    - title: "Background"
+      url: /practices.html
       output: web
 
       subfolders:
 
-# A subfolder name that contains sub-level menu items with links to 2nd document/page
-      - title: "Sub-headers"
+      - title: "Toolbox"
         output: web
 
         subfolderitems:
 
-        - title: "Sub-header #1"
-          url: /doc-template.html#sub-header-1
+        - title: "UNIX"
+          url: /practices.html#unix
           output: web
 
-        - title: "Sub-header #2"
-          url: /doc-template.html#sub-header-2
+        - title: "WINDOWS"
+          url: /practices.html#windows
           output: web
 
-        - title: "Sub-header #3"
-          url: /doc-template.html#sub-header-3
+        - title: "BagIt"
+          url: /practices.html#bagit
           output: web
 
-        - title: "Sub-header #4"
-          url: /doc-template.html#sub-header-4
+  - title: "Archiving Cookbook FAQ"
+    output: web
+
+    folderitems:
+
+    - title: "Summary"
+      url: /faq.html
+      output: web
+
+      subfolders:
+
+      - title: "General Questions"
+        output: web
+
+        subfolderitems:
+
+        - title: "Real time vs delayed mode?"
+          url: /faq.html#real-time-vs-delayed-mode
           output: web
 
-    - title: "Second Document Header 3"
-      url: /doc-template.html#header-3
+        - title: "Directory structure?"
+          url: /faq.html#directory-structure
+          output: web
+
+        - title: "What should we put in the archive section of the certification?"
+          url: /faq.html#what-should-we-put-in-the-archive-section-of-the-certification
+          output: web
+
+      - title: "Data File Questions"
+        output: web
+
+        subfolderitems:
+
+        - title: "What do you recommend for file naming conventions?"
+          url: /faq.html#what-do-you-recommend-for-file-naming-conventions
+          output: web
+
+        - title: "Who do we list as the creator_name in the netCDF file?"
+          url: /faq.html#who-do-we-list-as-the-creator_name-in-the-netcdf-file
+          output: web
+
+        - title: "For the NCEI netCDF template V2.0, how should we populate the various publisher attributes?"
+          url: /faq.html#for-the-ncei-netcdf-template-v20-how-should-we-populate-the-various-publisher-attributes-publisher_name-publisher_institution-publisher_url-publisher_type-publisher_email-publisher_phone
+          output: web
+
+        - title: "What do we list in the projects attribute?"
+          url: /faq.html#what-do-we-list-in-the-projects-attribute
+          output: web
+
+        - title: "What is the right thing to do for variables that have no CF standard name?"
+          url: /faq.html#we-have-some-variables-that-have-no-cf-standard-name-for-example-phycoerythrin--furthermore-the-units-the-instrument-reports-in-are-relative-fluorescence-units-rfu-which-are-not-udunits-as-far-as-i-can-tell--what-is-the-right-thing-to-do-for-variables-like-this
+          output: web
+
+        - title: "What should we list in the institution global attribute?"
+          url: /faq.html#what-should-we-list-in-the-institution-global-attribute
+          output: web
+
+  - title: "Example Archive Procedures"
+    output: web
+
+    folderitems:
+
+    - title: "Southeast Coastal Ocean Observing Regional Association (SECOORA)"
+      url: /procedures.html#southeast-coastal-ocean-observing-regional-association-secoora
+      output: web
+
+    - title: "Great Lakes Observing System (GLOS)"
+      url: /procedures.html#great-lakes-observing-system-glos
       output: web
 

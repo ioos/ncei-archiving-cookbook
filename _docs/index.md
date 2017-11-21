@@ -46,7 +46,7 @@ Below is a diagram of the pathway for the various types of IOOS RA data to get t
 
 ---------------------------------------------------------------------------------------------------------
 
-## Formatting your Data
+## Formatting Your Data
 
 Whenever possible, data should be recorded or translated to scientific units (instead of raw sensor voltages), and be the best, science-quality version of these data available at the time of submission. Ancillary information that are critical for accurate interpretation and reuse of the data, such as calibration information or temperature and pH scale for sensor measurements, should be noted in the data files themselves or in associated documentation files.&nbsp;In order to fully document the data that has been collected, NCEI provides the following recommendations:
  - Use a consistent and unique file naming convention for each file. (e.g. `carocoops.cap2.buoy_2014_03_28_05.nc`) 
@@ -78,7 +78,7 @@ The mission of NCEI is to "acquire, process, preserve, and disseminate oceanogra
 
 ---------------------------------------------------------------------------------------------------------------------
 
-## Organizing your Data
+## Organizing Your Data
 
 Well-organized data promotes the use and re-use of the interested data set throughout the community. Organizing your data into logical structures that the data lend themselves to be housed in is highly recommended (don't put a square peg in a round hole). Since you, the data provider, have the best handle on how stakeholders and users alike prefer to have the data organized, we default to your recommendations.
 
@@ -107,24 +107,88 @@ NCEI has seen a variety of ways for data managers to format their data. Below ar
      >
      >  ![](./Example-4.png)
        
+----------------------------------------------------------------------------------------------------------------------
 
+## Determine the Web Tool for Documenting and Submitting Your Data
 
+Currently,  NCEI has two web tools to collect information about data sets that are intended to be archived within the NCEI archive. The two systems facilitate the submission of data through the development of metadata records. For one-off submissions (data collections that are not episodically or periodically recurring transactions) the [Send2NCEI](https://www.nodc.noaa.gov/s2n/) web tool&nbsp;is recommended for the collection of metadata and transfer of data to the NCEI archive. For automated submissions (data transfer will occur on a consistent basis; weekly, monthly, semi-annually, annually, episodic, etc.) the [Advanced Tracking and Resource tool for Archive Collections](https://www.ncdc.noaa.gov/atrac/index.html) (ATRAC) web tool is recommended for the collection of metadata and details of the transfer mechanisms that will be developed.
 
+Below are some examples to assist in determining which web tool is appropriate for the data that is intended to be archived.
 
+[Send2NCEI](https://www.nodc.noaa.gov/s2n/):
+: ^
+  * A Principal Investigator (PI) who has collected data from multiple CTD casts in the North Pacific.
+  * An aggregation of data collected from one platform over a year.
+  * Hard copies of historical data found stowed away.
+ 
+[ATRAC](https://www.ncdc.noaa.gov/atrac/index.html):
+: ^
+  * Buoy collecting continuous data which can be exported on an episodic/periodic occurrence.
+  * An automated system that aggregates and exports data on an episodic/periodic basis.
+  * A Data Assembly Center (DAC) which can aggregate data and submit on an episodic/periodic basis.
 
-## Header 3
+--------------------------------------------------------------------------------------------------
 
+## Documenting Your Data
 
-## Header 3
+Use the appropriate system, [Send2NCEI](https://www.nodc.noaa.gov/s2n/) or [ATRAC](https://www.ncdc.noaa.gov/atrac/index.html) to begin documenting the data intended to be archived. The information collected within the two systems does vary slightly, due to the intention of the request for archiving. However, the following information would be beneficial to have available when populating the appropriate system.
 
+ * First and last dates of data collection;
+ * Sea areas where data were collected (e.g., Gulf of Maine)
+ * Western and eastern longitudinal boundaries and northern and southern latitudinal boundaries within which the data were collected;
+ * Instrument types used to collect the data (e.g., CTD or XBT);
+ * Ocean properties measured (e.g., salinity, temperature, current direction, or dissolved oxygen);
+ * Organizations that collected the data (e.g., NOAA/NMFS/Northeast Fisheries Science Center and Woods Hole Oceanographic Institution);
+ * Who was involved in processing, documenting and organizing data;
+ * Platforms from which the data were collected (e.g., moored buoy and NOAA ship HENRY B. BIGELOW); and
+ * Projects that funded the collection of these data (e.g., World Ocean Circulation Experiment).
 
-## Header 3
+------------------------------------------------------------------------------------------------
 
+## Developing a Record in the Appropriate Web Tool
 
-## Header 3
+The Advanced Tracking and Resource tool for Archive Collections ([ATRAC](https://www.ncdc.noaa.gov/atrac/index.html)) and the [Send2NCEI](https://www.nodc.noaa.gov/s2n/) web  tool facilitate the collection of metadata related to the packages you have developed&nbsp;according to the procedures above. Once you have collected the pertinent information listed below, it is recommended to have that information available when populating the appropriate system:
 
+ * An idea of the size of the data files (both individually and as a collection).
+ * The frequency you would like to be archiving (weekly, monthly, yearly).
+ * Accessible examples of your data files (though a WAF, DAP or other service).
+ * Examples of your 'Manifest' files.
 
-## Header 3
+For more information on populating the **ATRAC** record, see [ATRAC Guidance](./atrac.html). To learn more about **ATRAC**, see [Introduction to ATRAC](https://www.ncdc.noaa.gov/atrac/introduction.html).
+
+For more information on populating the **Send2NCEI** record, contact [NCEI](mailto:mathew.biddle@noaa.gov).
+
+--------------------------------------------------------------------------------------------------------------
+
+## Posting the Data to be Archived
+
+For NCEI to be able to develop the appropriate metadata and archive the data, the provider should provide a location where NCEI can gain access to the data. While developing the location where the files will be posted for transfer to the NCEI archive, we recommend the following best  practices:
+ * Post your consistently formatted data files and directory structure to a location (FTP, HTTP, DAP, THREDDS, etc) where NCEI can pull the data from.
+ * Allow ample time for NCEI to develop the ingest and archival procedures.
+ * Verify that the location where the files are posted will not vary throughout the archival process.
+ * Anonymous FTP sites are okay for NCEI to pull data from, we just need the appropriate information to gain access.
+ * Provide access to the files for approximately one month after the data has been ingested and archived at NCEI.
+
+--------------------------------------------------------------------------------------------------------------
+
+## Monitoring Archival Procedures
+
+Once the archival process has been developed and implemented, some time should be devoted to verifying the defined process has been implemented correctly. Typically this is accomplished through the development of an example metadata record and example **Archival Information Package**. Once the example is approved, we recommend the following checks to verify the process is functioning correctly:
+
+ * Search the [Geoportal](https://data.nodc.noaa.gov/geoportal/catalog/search/search.page) for your archived data collection. The metadata records could take up to one-day to be indexed in the geoportal, so allow a little bit of leeway.
+ * Check at least one of the **Archival Information Packages** to verify no errors have occurred.
+ 
+Approximately one month after you have been notified that a package has been archived, you have the flexibility to remove the archived packages from your access site. NCEI now has your data archived!
+
+------------------------------------------------------------------------------------------------------------
+
+## Access Archived Data
+
+ * The NCEI accession number is a **'unique tracking number'** for each collection of data from a data provider. The NCEI Accession Tracking Data Base (ATDB) is a database used by NCEI to keep track of archival collections of original data and provide discovery metadata about those collections through the NCEI Ocean Archive System (OAS).
+ * Use the NCEI accession number to search the Ocean Archive System or to reference a specific NCEI accession number with this URL: **`http://data.nodc.noaa.gov/accession/#######`** (where ####### is the NCEI Accession number; multiple NCEI Accession numbers may be used in one URL, separated by commas, e.g., #######,#######,#######)
+ * To search through the [Geoportal](https://data.nodc.noaa.gov/geoportal/catalog/search/search.page) use the following [Geoportal Tips Page](https://data.nodc.noaa.gov/geoportal/catalog/searchtips/searchtips.page) to assist in developing the appropriate query.
+ * All IOOS Regional Association and Data Assembly Center data will be tagged with the following metadata key: ["Integrated Ocean Observing System Data Assembly Centers Data Stewardship Program"](https://data.nodc.noaa.gov/geoportal/rest/find/document?searchText=%22Integrated%20Ocean%20Observing%20System%20Data%20Assembly%20Centers%20Data%20Stewardship%20Program%22&start=1&max=50&contentOption=intersecting&f=searchPage) (The link directs you to the pre-queried Geoportal search page for the project "Integrated Ocean Observing System Data Assembly Centers Data Stewardship Program"). 
+
 
 
 

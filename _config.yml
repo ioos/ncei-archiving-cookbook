@@ -135,9 +135,9 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 
 # added settings for IOOS (replace 'ioos-documentation-jekyll-skeleton' with your GitHub repo name:
 url                      : "https://ioos.github.io"
-baseurl                  : "/ncei-archiving-cookbook-jekyll"
+baseurl                  : "/ncei-archiving-cookbook"
 
-repository               : "ioos/documentation-theme-jekyll"
+repository               : "ioos/documentation-theme"
 
 github_editme_path       : "ioos/ncei-archiving-cookbook/blob/gh-pages/_docs"
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
