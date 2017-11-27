@@ -12,7 +12,7 @@ summary: Guidelines on populating the ATRAC record
 
 <!-- ## ATRAC Guidance -->
 
- 1. Request an ATRAC record to be generated through [Mathew Biddle](mailto:mathew.biddle@noaa.gov).
+ 1. Request an ATRAC record to be generated through [NCEI](mailto:ncei.ioos@noaa.gov).
  2. [Create an account in ATRAC](https://www.ncdc.noaa.gov/atrac/registration.html).
  3. Once the record is generated, you should receive an e-mail that looks like the following (#### = four (4) digit project identifier):
 
