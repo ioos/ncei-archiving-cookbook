@@ -20,8 +20,10 @@ topnav_dropdowns:
         - 
         - title: DMAC Implementation Guidelines for Data Providers
           external_url: https://ioos.noaa.gov/data/contribute-data/
-        - title: IOOS Biological Data Services
-          external_url: https://ioos.github.io/biological-data-services/
+#        - title: IOOS Biological Data Services
+#          external_url: https://ioos.github.io/biological-data-services/
+#        - title: IOOS Biological Data Services
+#          external_url: https://ioos.github.io/BioData-Training-Workshop/
         - title: IOOS CF-netCDF Guidelines
           external_url: https://ioos.github.io/ioos-netcdf/
         - title: IOOS Compliance Checker on GitHub 
