@@ -79,7 +79,8 @@ The mission of NCEI is to "acquire, process, preserve, and disseminate oceanogra
 Well-organized data promotes the use and re-use of the interested data set throughout the community. Organizing your data into logical structures that the data lend themselves to be housed in is highly recommended (don't put a square peg in a round hole). Since you, the data provider, have the best handle on how stakeholders and users alike prefer to have the data organized, we default to your recommendations.
 
 NCEI has seen a variety of ways for data managers to format their data. Below are some points to assist in your data management:
- - Organize your data in a way that would make the most sense to a future user of these data.Organize your data into a consistent logical structure.
+ - Organize your data in a way that would make the most sense to a future user of these data.
+ * Organize your data into a consistent logical structure.
  - Organize your data how you would like the data represented in the archive.
  - NCEI recommends to organize your non-federal buoy assets by station and providing new files for each month, if possible.
    - This allows NCEI to generate Archival Information Packages (AIPs) based on station and a higher level of granularity.
@@ -88,20 +89,20 @@ NCEI has seen a variety of ways for data managers to format their data. Below ar
      >Organizing your data through Directory Structure (One Directory per Station/Buoy):
      >: _Example Directory 1_
      >
-     >  ![](./Example-1.png)
+     >  ![](./example-1.png)
      >: _Example Directory 2_
      >
-     >  ![](./Example-2.png)
+     >  ![](./example-2.png)
      >  
      >Organizing your data through File Naming Convention (One Directory for all Files, NCEI parses based on name):
      >: _File Naming Convention_
      >
-     >  ![](./Example-3.png)
+     >  ![](./example-3.png)
      >  
      >Organizing your data through packaging (zip, tar, gzip, etc):
      >: _Packaging_
      >
-     >  ![](./Example-4.png)
+     >  ![](./example-4.png)
 
 ----------------------------------------------------------------------------------------------------------------------
 
