@@ -1,10 +1,7 @@
 ---
 title: "Standard Practices for Ensuring Data Integrity"
-keywords: archiving, guidance, cookbook, tools, procedure, integrity 
+keywords: archiving, guidance, cookbook, tools, procedure, integrity
 tags: [guidelines, archiving, data, NCEI, tools, procedure]
-#sidebar: home_sidebar
-sidebar: mydoc_sidebar
-topnav: topnav
 toc: false
 #permalink: index.html
 summary: The mission of NCEI is to ''acquire, process, preserve, and disseminate oceanographic data.'' Thus, the acquisition of data from data providers is an important part of the NCEI mission. In order to maintain the integrity and to guarantee availability of the data that NCEI acquires, as well as to ensure the security of both NCEI and remote computer systems, NCEI has a few recommendations for standard practice for data acquisition.
@@ -13,15 +10,15 @@ summary: The mission of NCEI is to ''acquire, process, preserve, and disseminate
 
 ## Background
 
- 1. NCEI recommends the data provider will make the data files available so that NCEI can "pull" the data from the remote site. That is, NCEI will initiate the network transaction, copying the files from the remote site to an NCEI server. NCEI will use ftp, http, https, rsync or other appropriate file transfer protocol to transfer the files from the remote site. NCEI will schedule the transfers to balance timely acquisition against resource usage. 
-    * One reason NCEI prefers to "pull" the data is because NCEI operates multiple data acquisition servers in an effort to guarantee that no data are ever lost due to unexpected downtime of any one of its servers. Even if there is a system outage in one location the data continue to be acquired at the other locations. In addition, if NCEI adds another redundant data acquisition server the data providers will not have to change their configurations. 
-2. NCEI strongly recommends using standard mechanisms to guarantee data integrity. 
-    * Every data file should be accompanied by a computed [cryptographic "checksum"](https://en.wikipedia.org/wiki/Cryptographic_hash_function) (link points you to a Wikipedia description if you are interested in diving a bit deeper). The use of a checksum will prevent incomplete or otherwise corrupted data files from being acquired from data providers. These checksums must be made available concurrently with the data files. NCEI software will validate the data files against their checksums in order to maintain data integrity. 
-    * NCEI currently recommends the use of the SHA-2 family of cryptographic hash functions. (MD5 and SHA-1 have been formally deprecated by NIST.) We are able to use SHA-1, SHA-256, or any other cryptographic hash function which is supported at NCEI. (See [Toolbox](./practices.html#unix) section below.) 
-    * NCEI recommends accompanying your data files with a "**manifest**", a file containing the names and checksums of your data files (see [example of a simple **`manifest.xml`**](./SubmissionManifest-simple.xml). Using the "**manifest**" fulfills two needs: 
+ 1. NCEI recommends the data provider will make the data files available so that NCEI can "pull" the data from the remote site. That is, NCEI will initiate the network transaction, copying the files from the remote site to an NCEI server. NCEI will use ftp, http, https, rsync or other appropriate file transfer protocol to transfer the files from the remote site. NCEI will schedule the transfers to balance timely acquisition against resource usage.
+    * One reason NCEI prefers to "pull" the data is because NCEI operates multiple data acquisition servers in an effort to guarantee that no data are ever lost due to unexpected downtime of any one of its servers. Even if there is a system outage in one location the data continue to be acquired at the other locations. In addition, if NCEI adds another redundant data acquisition server the data providers will not have to change their configurations.
+2. NCEI strongly recommends using standard mechanisms to guarantee data integrity.
+    * Every data file should be accompanied by a computed [cryptographic "checksum"](https://en.wikipedia.org/wiki/Cryptographic_hash_function) (link points you to a Wikipedia description if you are interested in diving a bit deeper). The use of a checksum will prevent incomplete or otherwise corrupted data files from being acquired from data providers. These checksums must be made available concurrently with the data files. NCEI software will validate the data files against their checksums in order to maintain data integrity.
+    * NCEI currently recommends the use of the SHA-2 family of cryptographic hash functions. (MD5 and SHA-1 have been formally deprecated by NIST.) We are able to use SHA-1, SHA-256, or any other cryptographic hash function which is supported at NCEI. (See [Toolbox](./practices.html#unix) section below.)
+    * NCEI recommends accompanying your data files with a "**manifest**", a file containing the names and checksums of your data files (see [example of a simple **`manifest.xml`**](./SubmissionManifest-simple.xml). Using the "**manifest**" fulfills two needs:
        - The "**manifest**" lists the data files in a given package. Thus, there is no question which files belong to the package. Files which are not in the package can be safely ignored, and only files in the package will be processed.
-       - The "**manifest**" includes the checksums of the files in the package. The integrity of each file can be determined. And changes to files can be determined by comparing the checksum in the "**manifest**" against the checksum of any file previously downloaded by NCEI; if the checksums are different, the file is presumed to have changed and will be downloaded by NCEI to replace the original file. 
- 3. NCEI requests data to be available for a minimum number of days in order to ensure that the data can be acquired even in the event of a short power outage, system failure, network failure, or other resource problem. When the system returns to normal operation state, NCEI will automatically attempt to acquire the most recent data from the data providers. We have found that three (3) days is usually sufficient to guarantee successful acquisition, but the longer the period of availability the better, preferably at least one (1) month. 
+       - The "**manifest**" includes the checksums of the files in the package. The integrity of each file can be determined. And changes to files can be determined by comparing the checksum in the "**manifest**" against the checksum of any file previously downloaded by NCEI; if the checksums are different, the file is presumed to have changed and will be downloaded by NCEI to replace the original file.
+ 3. NCEI requests data to be available for a minimum number of days in order to ensure that the data can be acquired even in the event of a short power outage, system failure, network failure, or other resource problem. When the system returns to normal operation state, NCEI will automatically attempt to acquire the most recent data from the data providers. We have found that three (3) days is usually sufficient to guarantee successful acquisition, but the longer the period of availability the better, preferably at least one (1) month.
  4. NCEI recommends that if a user ID and password is required to access the data to be acquired, that this user ID and password not be transferred over unencrypted connections. Thus, ftp should not be used because ftp sends the user ID and password over an unencrypted connection. However, https (http + SSL) can be used, because https is encrypted. rsync over ssh can also be used in this way.
 <br>
 <br>
@@ -72,7 +69,7 @@ Similar commands to that described under the UNIX-based operating systems, above
 #### Third party utilities
 
 There are numerous third party utilities produced for the WINDOWS-based operating system which can be useful for generating manifest files. For example, `Cygwin64` - a large collection of GNU and Open Source tools which provide functionality similar to a Linux distribution on Window.
-        
+
 #### System tools
 
 One simple way to generate checksums for data files (on most WINDOWS-based operating systems) is to use the `certutil.exe` -- a command-line program that is installed as part of Windows Certificate Services. Among other features, the `certutil.exe` is able to generate and display a cryptographic hash over a file.
@@ -96,7 +93,7 @@ CertUtil -v -?           -- Display all help text for all verbs
 The following examples show how to use `certutil.exe` for calculating various checksums and creating  the "**manifest**" files:
 
 SHA256 checksum for one file (`data.txt` in this example)
-: 
+:
 ```
 >certutil -hashfile data.txt SHA256
 SHA256 hash of file data.txt:
@@ -105,7 +102,7 @@ CertUtil: -hashfile command completed successfully.
 ```
 
 SHA384 checksum for the same file
-: 
+:
 ```
 >certutil -hashfile data.txt SHA384
 SHA384 hash of file data.txt:
@@ -115,7 +112,7 @@ CertUtil: -hashfile command completed successfully.
 
 
 SHA512 checksum for the same file
-: 
+:
 ```
 >certutil -hashfile data.txt SHA512
 SHA512 hash of file data.txt:
@@ -124,7 +121,7 @@ CertUtil: -hashfile command completed successfully.
 ```
 
 Recursive manifest file for a directory of files
-: 
+:
 ```
 >for /F %i IN ('dir [DIRECTORY PATH]\*.nc /s/b') do (certutil -hashfile %i SHA384 | find /v "CertUtil") >> manifest.txt
 ```

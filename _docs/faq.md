@@ -2,12 +2,9 @@
 title: "Archiving Cookbook FAQ"
 keywords: archiving, guidance, cookbook, tools, FAQ
 tags: [guidelines, archiving, data, NCEI, tools, FAQ]
-#sidebar: home_sidebar
-sidebar: mydoc_sidebar
-topnav: topnav
 toc: false
 #permalink: index.html
-summary: Frequently asking questions on the NCEI Archiving Process 
+summary: Frequently asking questions on the NCEI Archiving Process
 ---
 
 
@@ -20,7 +17,7 @@ NCEI would like all of the data, both delayed QA/QC data and real-time data.
 #### Directory structure?
 
 NCEI prefers the files to be organized by platform, with each platform being its own directory. See the example below:
- 
+
  ![](./faq-1-0.png)
 
 <!--   Preferred directory structure
@@ -75,7 +72,7 @@ In order to be certified, a RICE must provide a Standard Operating Procedure (to
 &nbsp;&nbsp;&nbsp;**B:** Request to Archive; or<br>
 &nbsp;&nbsp;&nbsp;**C:** Data Submission Agreement.
 
-Below are examples of the various archive states the archival of RICE data could be in. NCEI has provided their recommendation of what information to include in the certification, in some cases, specific text to include. 
+Below are examples of the various archive states the archival of RICE data could be in. NCEI has provided their recommendation of what information to include in the certification, in some cases, specific text to include.
   1. **If the region does not have an agreement with NCEI.**
      * Include the following information:
         1. List of parameters/observations being collected.
@@ -89,7 +86,7 @@ Below are examples of the various archive states the archival of RICE data could
      * Provide an estimated date as to when the RICE expects to be archiving their data.
   3. **If the region has an approved Request to Archive, but NCEI has not implemented the archive procedure yet.**
      * Include the approved Request to Archive.
-     * Add the following text to the certification (replacing _RICE_ with your region name): _RICE **has completed the required documentation for the** (description of data files) **data files in the NCEI ATRAC system. The Request to Archive (attached here) has been approved and NCEI is developing the archival process. We expect the automated archival of** RICE (description of data files) **to be operational by the end of** (give a date when we can expect the data to be archived, for example the calendar year (January 2017))_. 
+     * Add the following text to the certification (replacing _RICE_ with your region name): _RICE **has completed the required documentation for the** (description of data files) **data files in the NCEI ATRAC system. The Request to Archive (attached here) has been approved and NCEI is developing the archival process. We expect the automated archival of** RICE (description of data files) **to be operational by the end of** (give a date when we can expect the data to be archived, for example the calendar year (January 2017))_.
   4. **If the region has an already existing agreement with NCEI and will be making adjustments to that process after the certification is submitted.**
      * Include the current agreement to the certification documentation.
      * Include a statement that details how the current framework is being renegotiated with NCEI and the documentation will be updated to reflect any changes.
@@ -144,7 +141,7 @@ Use the Regional Association information to populate the publisher attributes; s
 
 #### What do we list in the projects attribute?
 
-Any associated projects that are affiliated with the data in that file. 
+Any associated projects that are affiliated with the data in that file.
 
 #### We have some variables that have no CF standard name, for example, phycoerythrin.  Furthermore, the units the instrument reports in are Relative Fluorescence Units (RFU), which are not UDUNITS as far as I can tell.  What is the right thing to do for variables like this?
 

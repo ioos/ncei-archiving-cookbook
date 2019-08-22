@@ -2,9 +2,9 @@
 
 entries:
 - title: sidebar
-  product: "NCEI Archiving Cookbook"
+  product: Menu
   levels: two
-  version: 
+  version:
   folders:
 
   - title:
@@ -175,4 +175,3 @@ entries:
     - title: "Great Lakes Observing System (GLOS)"
       url: /procedures.html#great-lakes-observing-system-glos
       output: web
-

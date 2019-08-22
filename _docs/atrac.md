@@ -2,12 +2,9 @@
 title: "ATRAC Guidance"
 keywords: ATRAC, archiving, guidance, cookbook, tools
 tags: [guidelines, archiving, data, NCEI, ATRAC, tools]
-#sidebar: home_sidebar
-sidebar: mydoc_sidebar
-topnav: topnav
 toc: false
 #permalink: index.html
-summary: Guidelines on populating the ATRAC record 
+summary: Guidelines on populating the ATRAC record
 ---
 
 <!-- ## ATRAC Guidance -->
@@ -19,9 +16,9 @@ summary: Guidelines on populating the ATRAC record
 <pre><b>
     ---------- Forwarded message ----------
     From: <atrac.ncdc@noaa.gov>
-    Date: 
+    Date:
     Subject: Access Granted to Project #### in ATRAC
-    To: 
+    To:
     Cc: atrac.ncdc@noaa.gov
 
 
@@ -42,7 +39,7 @@ summary: Guidelines on populating the ATRAC record
  5. Access the established ATRAC record.
  6. Review the most recent version of the **Request to Archive** record and populate/update the information collecting therein (if needed):
    * _Be sure to only use the 'Save' button when making any changes._
-   * _NCEI will make the determination as to when the record should be 'Submitted'._ 
+   * _NCEI will make the determination as to when the record should be 'Submitted'._
  7. Review the most recent version of the ISO Metadata record and populate/update the information collecting therein (if needed):
    * _The information collected in this section will directly feed into the metadata for the automated data stream. So, pay careful attention!_
  8. Review the most recent version of the **Data Submission Agreement** and populate/update the information collecting therein (if needed):

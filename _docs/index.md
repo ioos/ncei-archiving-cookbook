@@ -2,12 +2,9 @@
 title: "Archiving your data at NCEI"
 keywords: homepage
 tags: [guidelines, archiving, data, NCEI]
-#sidebar: home_sidebar
-sidebar: mydoc_sidebar
-topnav: topnav
 toc: false
 #permalink: index.html
-summary: This is a guide for IOOS Regional Association Data Managers 
+summary: This is a guide for IOOS Regional Association Data Managers
 ---
 
 
@@ -26,7 +23,7 @@ Some key points to keep in mind when managing data:
    - [The UK Digital Curation Centre](http://www.dcc.ac.uk/resources/how-guides/develop-data-plan)
    - [NOAA Data Sharing Policy](https://nosc.noaa.gov/EDMC/PD.DSP.php)
  - To get an idea as to how NCEI ingests and archives data in an automated way, see [Example Archive Procedures](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/example-archive-procedures) for examples.
-  
+
  -----------------------------------------------------------------------------------------------------------------
 
 ## Selecting the Data to be Archived
@@ -39,7 +36,7 @@ Below is a diagram of the pathway for the various types of IOOS RA data to get t
 
 <!-- ![](./DataArchiveDecisionTreeForGoogle.jpg) -->
 
-<a href="./DataArchiveDecisionTreeForGoogle-large.png"><img alt="thumb" src="./DataArchiveDecisionTreeForGoogle-small.png" height="20%"></a> 
+<a href="./DataArchiveDecisionTreeForGoogle-large.png"><img alt="thumb" src="./DataArchiveDecisionTreeForGoogle-small.png" height="20%"></a>
 
 (click for full-size image)
 {: style="color:blue; font-size: 80%; text-align: center;"}
@@ -49,7 +46,7 @@ Below is a diagram of the pathway for the various types of IOOS RA data to get t
 ## Formatting Your Data
 
 Whenever possible, data should be recorded or translated to scientific units (instead of raw sensor voltages), and be the best, science-quality version of these data available at the time of submission. Ancillary information that are critical for accurate interpretation and reuse of the data, such as calibration information or temperature and pH scale for sensor measurements, should be noted in the data files themselves or in associated documentation files.&nbsp;In order to fully document the data that has been collected, NCEI provides the following recommendations:
- - Use a consistent and unique file naming convention for each file. (e.g. `carocoops.cap2.buoy_2014_03_28_05.nc`) 
+ - Use a consistent and unique file naming convention for each file. (e.g. `carocoops.cap2.buoy_2014_03_28_05.nc`)
    - See the [Cookbook FAQ on recommended file naming conventions](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/cookbook-faq) for more details.
  - NCEI highly recommends formatting your data following the [NCEI NetCDF Templates v2.0](https://www.nodc.noaa.gov/data/formats/netcdf/v2.0/). These best practices capture NCEI's experience in providing long-term preservation, scientific quality control, product development, and multiple data re-use beyond its original intent.
  - Data should be in compliance with the [IOOS compliance checker](https://github.com/ioos/compliance-checker), specifically the [NCEI plugin for the IOOS compliance checker](https://github.com/ioos/cc-plugin-ncei).
@@ -74,7 +71,7 @@ The mission of NCEI is to "acquire, process, preserve, and disseminate oceanogra
    2. Generate one manifest file with all filenames and checksums for the package to be archived.
        - This can be a space delimited file with the filenames, including path to the files, and checksums.
        - This can be an xml formatted file with the filenames, including path to the files, and checksums. For an xml formatted example see [this file](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/SubmissionManifest_simple.xml?attredirects=0&d=1).
-  - Review [standard practices to guarantee data integrity](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/data-integrity) for more information on manifest files and integrity checks. 
+  - Review [standard practices to guarantee data integrity](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/data-integrity) for more information on manifest files and integrity checks.
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -88,7 +85,7 @@ NCEI has seen a variety of ways for data managers to format their data. Below ar
  - NCEI recommends to organize your non-federal buoy assets by station and providing new files for each month, if possible.
    - This allows NCEI to generate Archival Information Packages (AIPs) based on station and a higher level of granularity.
  - Some examples of data organization are as follows
- 
+
      >Organizing your data through Directory Structure (One Directory per Station/Buoy):
      >: _Example Directory 1_
      >
@@ -106,7 +103,7 @@ NCEI has seen a variety of ways for data managers to format their data. Below ar
      >: _Packaging_
      >
      >  ![](./Example-4.png)
-       
+
 ----------------------------------------------------------------------------------------------------------------------
 
 ## Determine the Web Tool for Documenting and Submitting Your Data
@@ -120,7 +117,7 @@ Below are some examples to assist in determining which web tool is appropriate f
   * A Principal Investigator (PI) who has collected data from multiple CTD casts in the North Pacific.
   * An aggregation of data collected from one platform over a year.
   * Hard copies of historical data found stowed away.
- 
+
 [ATRAC](https://www.ncdc.noaa.gov/atrac/index.html):
 : ^
   * Buoy collecting continuous data which can be exported on an episodic/periodic occurrence.
@@ -177,7 +174,7 @@ Once the archival process has been developed and implemented, some time should b
 
  * Search the [Geoportal](https://data.nodc.noaa.gov/geoportal/catalog/search/search.page) for your archived data collection. The metadata records could take up to one-day to be indexed in the geoportal, so allow a little bit of leeway.
  * Check at least one of the **Archival Information Packages** to verify no errors have occurred.
- 
+
 Approximately one month after you have been notified that a package has been archived, you have the flexibility to remove the archived packages from your access site. NCEI now has your data archived!
 
 ------------------------------------------------------------------------------------------------------------
@@ -187,13 +184,10 @@ Approximately one month after you have been notified that a package has been arc
  * The NCEI accession number is a **'unique tracking number'** for each collection of data from a data provider. The NCEI Accession Tracking Data Base (ATDB) is a database used by NCEI to keep track of archival collections of original data and provide discovery metadata about those collections through the NCEI Ocean Archive System (OAS).
  * Use the NCEI accession number to search the Ocean Archive System or to reference a specific NCEI accession number with this URL: **`http://data.nodc.noaa.gov/accession/#######`** (where ####### is the NCEI Accession number; multiple NCEI Accession numbers may be used in one URL, separated by commas, e.g., #######,#######,#######)
  * To search through the [Geoportal](https://data.nodc.noaa.gov/geoportal/catalog/search/search.page) use the following [Geoportal Tips Page](https://data.nodc.noaa.gov/geoportal/catalog/searchtips/searchtips.page) to assist in developing the appropriate query.
- * All IOOS Regional Association and Data Assembly Center data will be tagged with the following metadata key: ["Integrated Ocean Observing System Data Assembly Centers Data Stewardship Program"](https://data.nodc.noaa.gov/geoportal/rest/find/document?searchText=%22Integrated%20Ocean%20Observing%20System%20Data%20Assembly%20Centers%20Data%20Stewardship%20Program%22&start=1&max=50&contentOption=intersecting&f=searchPage) (The link directs you to the pre-queried Geoportal search page for the project "Integrated Ocean Observing System Data Assembly Centers Data Stewardship Program"). 
+ * All IOOS Regional Association and Data Assembly Center data will be tagged with the following metadata key: ["Integrated Ocean Observing System Data Assembly Centers Data Stewardship Program"](https://data.nodc.noaa.gov/geoportal/rest/find/document?searchText=%22Integrated%20Ocean%20Observing%20System%20Data%20Assembly%20Centers%20Data%20Stewardship%20Program%22&start=1&max=50&contentOption=intersecting&f=searchPage) (The link directs you to the pre-queried Geoportal search page for the project "Integrated Ocean Observing System Data Assembly Centers Data Stewardship Program").
 
 ------------------------------------------------------------------------------------------------------------
 
 ## References
 
 [RA Data Transfer Decision Tree](./RA Data Transfer Decision Tree for google site.pdf)
-
-
-

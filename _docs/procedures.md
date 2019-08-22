@@ -1,13 +1,10 @@
 ---
 title: "Example Archive Procedures"
-keywords: archiving, guidance, cookbook, tools, procedure, example 
+keywords: archiving, guidance, cookbook, tools, procedure, example
 tags: [guidelines, archiving, data, NCEI, tools, procedure, example]
-#sidebar: home_sidebar
-sidebar: mydoc_sidebar
-topnav: topnav
 toc: false
 #permalink: index.html
-summary: The procedures shown below are the NCEI internal procedures for the ingest and archival of existing Regional Association data streams. These procedures are intended to be listed as guidance for data providers. 
+summary: The procedures shown below are the NCEI internal procedures for the ingest and archival of existing Regional Association data streams. These procedures are intended to be listed as guidance for data providers.
 ---
 
 <!--
@@ -17,7 +14,7 @@ This information is provided as an insight into how the internal processing for 
 
 ## Southeast Coastal Ocean Observing Regional Association (SECOORA)
 
-The `perl` scripts used to produce the data files from database or csv files can be found at https://github.com/ioos/db2ncsos. All of the archived SECOORA non-Federal buoy assets can be found through the Geoportal [here](https://data.nodc.noaa.gov/geoportal/rest/find/document?searchText=%22Integrated%20Ocean%20Observing%20System%20Data%20Assembly%20Centers%20Data%20Stewardship%20Program%22%20AND%20%22SECOORA%22&start=1&max=2500&contentOption=intersecting&f=searchPage). 
+The `perl` scripts used to produce the data files from database or csv files can be found at https://github.com/ioos/db2ncsos. All of the archived SECOORA non-Federal buoy assets can be found through the Geoportal [here](https://data.nodc.noaa.gov/geoportal/rest/find/document?searchText=%22Integrated%20Ocean%20Observing%20System%20Data%20Assembly%20Centers%20Data%20Stewardship%20Program%22%20AND%20%22SECOORA%22&start=1&max=2500&contentOption=intersecting&f=searchPage).
 
 Below is the step-by-step procedure for NCEI's ingest and archival of the SECOORA non-Federal buoy assets:
 
@@ -44,7 +41,7 @@ Below is the step-by-step procedure for NCEI's ingest and archival of the SECOOR
 
 ## Great Lakes Observing System (GLOS)
 
-All of the archived GLOS non-Federal buoy assets can be found through the Geoportal [here](https://data.nodc.noaa.gov/geoportal/rest/find/document?searchText=%22Integrated%20Ocean%20Observing%20System%20Data%20Assembly%20Centers%20Data%20Stewardship%20Program%22%20AND%20%22SECOORA%22&start=1&max=2500&contentOption=intersecting&f=searchPage). 
+All of the archived GLOS non-Federal buoy assets can be found through the Geoportal [here](https://data.nodc.noaa.gov/geoportal/rest/find/document?searchText=%22Integrated%20Ocean%20Observing%20System%20Data%20Assembly%20Centers%20Data%20Stewardship%20Program%22%20AND%20%22SECOORA%22&start=1&max=2500&contentOption=intersecting&f=searchPage).
 
 Below is the step-by-step procedure for NCEI's ingest and archival of the GLOS non-Federal buoy assets:
 
@@ -69,7 +66,7 @@ Below is the step-by-step procedure for NCEI's ingest and archival of the GLOS n
         - If the package name already exists in the Archival Information Package, compare the checksums between the new file and the previously archived file(s).
           * If the checksums are not the same, perform a major-revision to that accession and replace the old file(s) with the new file(s) in the archival package.
             * Append the following note to journal.txt:
-               > `Note: The package [PackageName] was resubmitted from the Great Lakes Observing System on [Date].` 
+               > `Note: The package [PackageName] was resubmitted from the Great Lakes Observing System on [Date].`
           * If the checksums are the same, do nothing with that package.
         - If the dates in the package name differ
           * Perform a major-revision to that accession and append the new file(s) to the archival package.
@@ -78,4 +75,3 @@ Below is the step-by-step procedure for NCEI's ingest and archival of the GLOS n
  12. Generate appropriate NCEI about/ files (journal.txt, lonlat.txt, map.jpg, etc.)
  13. Publish the accession and notify interested parties.
  14. Provide usage statistics.
-
