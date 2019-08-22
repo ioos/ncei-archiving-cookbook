@@ -3,7 +3,6 @@ title: "Example Archive Procedures"
 keywords: archiving, guidance, cookbook, tools, procedure, example
 tags: [guidelines, archiving, data, NCEI, tools, procedure, example]
 toc: false
-#permalink: index.html
 summary: The procedures shown below are the NCEI internal procedures for the ingest and archival of existing Regional Association data streams. These procedures are intended to be listed as guidance for data providers.
 ---
 

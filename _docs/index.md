@@ -3,7 +3,6 @@ title: "Archiving your data at NCEI"
 keywords: homepage
 tags: [guidelines, archiving, data, NCEI]
 toc: false
-#permalink: index.html
 summary: This is a guide for IOOS Regional Association Data Managers
 ---
 

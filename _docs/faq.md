@@ -3,7 +3,6 @@ title: "Archiving Cookbook FAQ"
 keywords: archiving, guidance, cookbook, tools, FAQ
 tags: [guidelines, archiving, data, NCEI, tools, FAQ]
 toc: false
-#permalink: index.html
 summary: Frequently asking questions on the NCEI Archiving Process
 ---
 

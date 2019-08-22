@@ -3,7 +3,6 @@ title: "Standard Practices for Ensuring Data Integrity"
 keywords: archiving, guidance, cookbook, tools, procedure, integrity
 tags: [guidelines, archiving, data, NCEI, tools, procedure]
 toc: false
-#permalink: index.html
 summary: The mission of NCEI is to ''acquire, process, preserve, and disseminate oceanographic data.'' Thus, the acquisition of data from data providers is an important part of the NCEI mission. In order to maintain the integrity and to guarantee availability of the data that NCEI acquires, as well as to ensure the security of both NCEI and remote computer systems, NCEI has a few recommendations for standard practice for data acquisition.
 ---
 

@@ -3,7 +3,6 @@ title: "ATRAC Guidance"
 keywords: ATRAC, archiving, guidance, cookbook, tools
 tags: [guidelines, archiving, data, NCEI, ATRAC, tools]
 toc: false
-#permalink: index.html
 summary: Guidelines on populating the ATRAC record
 ---
 
