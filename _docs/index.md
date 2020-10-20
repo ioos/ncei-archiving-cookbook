@@ -21,7 +21,7 @@ Some key points to keep in mind when managing data:
    - [Training resources](https://dmptool.org/community_resources)
    - [The UK Digital Curation Centre](http://www.dcc.ac.uk/resources/how-guides/develop-data-plan)
    - [NOAA Data Sharing Policy](https://nosc.noaa.gov/EDMC/PD.DSP.php)
- - To get an idea as to how NCEI ingests and archives data in an automated way, see [Example Archive Procedures](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/example-archive-procedures) for examples.
+ - To get an idea as to how NCEI ingests and archives data in an automated way, see [Example Archive Procedures](https://ioos.github.io/ncei-archiving-cookbook/procedures.html) for examples.
 
  -----------------------------------------------------------------------------------------------------------------
 
@@ -46,7 +46,7 @@ Below is a diagram of the pathway for the various types of IOOS RA data to get t
 
 Whenever possible, data should be recorded or translated to scientific units (instead of raw sensor voltages), and be the best, science-quality version of these data available at the time of submission. Ancillary information that are critical for accurate interpretation and reuse of the data, such as calibration information or temperature and pH scale for sensor measurements, should be noted in the data files themselves or in associated documentation files.&nbsp;In order to fully document the data that has been collected, NCEI provides the following recommendations:
  - Use a consistent and unique file naming convention for each file. (e.g. `carocoops.cap2.buoy_2014_03_28_05.nc`)
-   - See the [Cookbook FAQ on recommended file naming conventions](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/cookbook-faq) for more details.
+   - See the [Cookbook FAQ on recommended file naming conventions](https://ioos.github.io/ncei-archiving-cookbook/faq.html) for more details.
  - NCEI highly recommends formatting your data following the [NCEI NetCDF Templates v2.0](https://www.nodc.noaa.gov/data/formats/netcdf/v2.0/). These best practices capture NCEI's experience in providing long-term preservation, scientific quality control, product development, and multiple data re-use beyond its original intent.
  - Data should be in compliance with the [IOOS compliance checker](https://github.com/ioos/compliance-checker), specifically the [NCEI plugin for the IOOS compliance checker](https://github.com/ioos/cc-plugin-ncei).
  - To see how compliant your files are, use the [Online IOOS Compliance Checker](https://data.ioos.us/compliance/index.html).
@@ -62,7 +62,7 @@ The mission of NCEI is to "acquire, process, preserve, and disseminate oceanogra
  - The relative path to the data files should be described in the manifest. If the data files are in a directory structure below the manifest file, we need to know where the data files are in relation to the manifest. If no relative path to the data files is described, NCEI will assume that the data and manifest are in the same directory.
  - There are two options when determining how you want to generate your manifest files:
    1. Generate the manifest files on a per file basis.
-      - One text file for each netCDF file, which contains the checksum followed by a space and the netCDF file name. See the example at [NCEI Acquisition Standards](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/data-integrity).
+      - One text file for each netCDF file, which contains the checksum followed by a space and the netCDF file name. See the example at [NCEI Acquisition Standards](https://ioos.github.io/ncei-archiving-cookbook/practices.html).
       - The naming convention for this file follows the same name as the netCDF file followed by `.sha`, indicating it is a checksum file.
       - NCEI has been using this construct for the current archive automations with GLOS and SECOORA:
            - For example, the manifest for the netCDF file [`enp.wiwf1.met_2015_06_01_18.nc`](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/enp.wiwf1.met_2015_06_01_18.nc?attredirects=0&d=1) would be [`enp.wiwf1.met_2015_06_01_18.nc.md5`](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/enp.wiwf1.met_2015_06_01_18.nc.md5?attredirects=0&d=1) (using an md5 cryptographic hash value).
@@ -70,7 +70,7 @@ The mission of NCEI is to "acquire, process, preserve, and disseminate oceanogra
    2. Generate one manifest file with all filenames and checksums for the package to be archived.
        - This can be a space delimited file with the filenames, including path to the files, and checksums.
        - This can be an xml formatted file with the filenames, including path to the files, and checksums. For an xml formatted example see [this file](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/SubmissionManifest_simple.xml?attredirects=0&d=1).
-  - Review [standard practices to guarantee data integrity](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/data-integrity) for more information on manifest files and integrity checks.
+  - Review [standard practices to guarantee data integrity](https://ioos.github.io/ncei-archiving-cookbook/practices.html) for more information on manifest files and integrity checks.
 
 ---------------------------------------------------------------------------------------------------------------------
 
