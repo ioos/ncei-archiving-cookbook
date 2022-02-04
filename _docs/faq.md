@@ -142,11 +142,13 @@ Use the Regional Association information to populate the publisher attributes; s
 
 Any associated projects that are affiliated with the data in that file.
 
-#### We have some variables that have no CF standard name, for example, phycoerythrin.  Furthermore, the units the instrument reports in are Relative Fluorescence Units (RFU), which are not UDUNITS as far as I can tell.  What is the right thing to do for variables like this?
+#### What is the right thing to do for variables that have no CF `standard_name`?
 
-Our recommendation for variables with no CF standard name is to:
- 1. Double check that it doesn't exist in the CF standard_name list. Keep it mind a variation of the variable could be applicable in some cases.
- 2. (Optional) Request the standard_name to be added to the cf standard_name table. We can assist with this if you would like to pursue it.
+For example, **phycoerythrin**. The units the instrument reports in are **Relative Fluorescence Units (RFU)**, which are not UDUNITS as far as I can tell.  What is the right thing to do for variables like this?
+
+Our recommendation for variables with no CF `standard_name` is to:
+ 1. Double check that it doesn't exist in the [CF standard_name list](https://cfconventions.org/standard-names.html). Keep it mind a variation of the variable could be applicable in some cases.
+ 2. (Optional) Request the standard_name to be added to the CF standard_name table. See [this repository](https://github.com/cf-convention/discuss) for instructions on requesting new `standard_name` terms. We can assist with this if you would like to pursue it.
  3. If the name, or variation of the name, doesn't exist in the list please use the long_name attribute to clearly identify what the variable contains.
  4. Populate the units attribute with the appropriate descriptive units for the variable. To be CF compliant the units attribute must be in a compliant UDUNITS format.
  5. Remove the standard_name attribute.
