@@ -156,7 +156,7 @@ entries:
           output: web
 
         - title: "What is the right thing to do for variables that have no CF standard name?"
-          url: /faq.html#what-is-the-right-thing-to-do-for-variables-that-have-no-CF-standard_name
+          url: /faq.html#what-is-the-right-thing-to-do-for-variables-that-have-no-cf-standard_name
           output: web
 
         - title: "What should we list in the institution global attribute?"
