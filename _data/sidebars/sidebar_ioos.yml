@@ -156,7 +156,7 @@ entries:
           output: web
 
         - title: "What is the right thing to do for variables that have no CF standard name?"
-          url: /faq.html#we-have-some-variables-that-have-no-cf-standard-name-for-example-phycoerythrin--furthermore-the-units-the-instrument-reports-in-are-relative-fluorescence-units-rfu-which-are-not-udunits-as-far-as-i-can-tell--what-is-the-right-thing-to-do-for-variables-like-this
+          url: /faq.html#what-is-the-right-thing-to-do-for-variables-that-have-no-CF-standard_name
           output: web
 
         - title: "What should we list in the institution global attribute?"
