@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - name: Checkout repo
-      uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
  
     - name: submodule checkout
       run: |
@@ -48,5 +48,5 @@ jobs:
     permissions:
       actions: write
     steps:
-      - uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       - uses: gautamkrishnar/keepalive-workflow@3eb47f21355191080dca0f7662d45c192d2ef64d # 2.0.7
