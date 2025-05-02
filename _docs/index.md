@@ -5,7 +5,25 @@ tags: [guidelines, archiving, data, NCEI]
 toc: false
 summary: This is a guide for IOOS Regional Association Data Managers
 ---
+## Current archive collections at NCEI
 
+**Dataset Name** |	**Metadata (Link)**
+-----------------|--------------------
+Physical and meteorological data collected from non-federal stations assembled by the Southeast Coastal Ocean Observing Regional Association (SECOORA)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-SECOORA>
+Oceanographic data collected from non-federal stations assembled by the Southern California Coastal Ocean Observing System (SCCOOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-SCCOOS>
+Oceanographic data collected from non-federal stations assembled by the Pacific Islands Ocean Observing System (PacIOOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-PacIOOS>
+Physical and meteorological data collected from non-federal stations assembled by the Northeastern Regional Association of Coastal Ocean Observing Systems (NERACOOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-NERACOOS>
+Physical, meteorological, and biological data collected from non-federal stations assembled by the Northwest Association of Networked Ocean Observing Systems (NANOOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-NANOOS>
+Physical and meteorological data collected from non-federal stations assembled by the Mid-Atlantic Regional Association Coastal Ocean Observing Systems (MARACOOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-MARACOOS>
+Oceanographic data collected from non-federal stations assembled by the Great Lakes Observing System (GLOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-GLOS>
+Oceanographic data collected from non-federal stations assembled by the Gulf of America Coastal Ocean Observing System (GCOOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-GCOOS>
+Physical and meteorological data collected from non-federal stations assembled by the Central and Northern California Coastal Ocean Observing System (CeNCOOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-CeNCOOS>
+Physical and meteorological data collected from non-federal stations assembled by the Caribbean Coastal Ocean Observing System (CARICOOS)	|< https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-CARICOOS>
+Physical and meteorological data collected from non-federal stations assembled by the Alaska Ocean Observing System (AOOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-AOOS>
+Marine animal satellite telemetry location and profile data from the U.S. Animal Telemetry Network (ATN) |	<https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-ATN-STP>
+Surface ocean radial velocities obtained by HF-radar from stations located along coastal waters of Hawaii, North Slope Alaska, Gulf of Alaska, Puerto Rico/Virgin Islands, eastern U.S./Gulf of America, western U.S., and the Great Lakes	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-HFRadarRadial>
+Near-real-time surface ocean velocities derived from HF-radar stations located along coastal waters of North Slope Alaska, Gulf of Alaska, Puerto Rico/Virgin Islands, eastern U.S./Gulf of America, Hawaii, Great Lakes, and western U.S.	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-HFRadarRTVector>
+Full resolution and low resolution real-time physical trajectory profile data from gliders submitted to NCEI by the IOOS National Glider Data Assembly Center (NGDAC) from 2009-05-17 to present	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-NGDAC>
 
 ## Big Picture Perspective
 
