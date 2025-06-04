@@ -10,38 +10,19 @@ summary: This is a guide for IOOS Regional Association Data Managers
 **Dataset Name** |	**Metadata (Link)** | **DOI** 
 -----------------|---------------------|----------------
 Physical and meteorological data collected from non-federal stations assembled by the Alaska Ocean Observing System (AOOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-AOOS> | [10.25921/qm3x-rn54](https://doi.org/10.25921/qm3x-rn54)
-
 Physical and meteorological data collected from non-federal stations assembled by the Caribbean Coastal Ocean Observing System (CARICOOS)	|<https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-CARICOOS> | [10.25921/pkjj-nz06](https://doi.org/10.25921/pkjj-nz06)
-
 Physical and meteorological data collected from non-federal stations assembled by the Central and Northern California Coastal Ocean Observing System (CeNCOOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-CeNCOOS> | [10.25921/p225-d669](https://doi.org/10.25921/p225-d669)
-
 Oceanographic data collected from non-federal stations assembled by the Gulf of America Coastal Ocean Observing System (GCOOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-GCOOS> | [10.25921/a1gj-g238](https://doi.org/10.25921/a1gj-g238)
-
 Oceanographic data collected from non-federal stations assembled by the Great Lakes Observing System (GLOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-GLOS> | [10.25921/wjq2-ty20](https://doi.org/10.25921/a1gj-g238)
-
 Physical and meteorological data collected from non-federal stations assembled by the Mid-Atlantic Regional Association Coastal Ocean Observing Systems (MARACOOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-MARACOOS> | [10.25921/cwjr-4p83](https://doi.org/10.25921/cwjr-4p83)
-
 Physical, meteorological, and biological data collected from non-federal stations assembled by the Northwest Association of Networked Ocean Observing Systems (NANOOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-NANOOS> | [10.25921/ctww-sd59](https://doi.org/10.25921/ctww-sd59)
-
 Physical and meteorological data collected from non-federal stations assembled by the Northeastern Regional Association of Coastal Ocean Observing Systems (NERACOOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-NERACOOS> | [10.25921/69jq-7135](https://doi.org/10.25921/69jq-7135)
-
 Oceanographic data collected from non-federal stations assembled by the Pacific Islands Ocean Observing System (PacIOOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-PacIOOS> | [10.25921/agwe-rv27](https://doi.org/10.25921/agwe-rv27)
-
 Oceanographic data collected from non-federal stations assembled by the Southern California Coastal Ocean Observing System (SCCOOS)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-SCCOOS> | [10.25921/19xr-1x56](https://doi.org/10.25921/19xr-1x56)
-
 Physical and meteorological data collected from non-federal stations assembled by the Southeast Coastal Ocean Observing Regional Association (SECOORA)	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-SECOORA> | [10.25921/f9ap-s131](https://doi.org/10.25921/f9ap-s131)
-
-
-
-
-
-
 Marine animal satellite telemetry location and profile data from the U.S. Animal Telemetry Network (ATN) |	<https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-ATN-STP> | [10.25921/wp4e-ph20](https://doi.org/10.25921/wp4e-ph20)
-
 Surface ocean radial velocities obtained by HF-radar from stations located along coastal waters of Hawaii, North Slope Alaska, Gulf of Alaska, Puerto Rico/Virgin Islands, eastern U.S./Gulf of America, western U.S., and the Great Lakes	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-HFRadarRadial> | [10.25921/0mgt-5372](https://doi.org/10.25921/0mgt-5372)
-
 Near-real-time surface ocean velocities derived from HF-radar stations located along coastal waters of North Slope Alaska, Gulf of Alaska, Puerto Rico/Virgin Islands, eastern U.S./Gulf of America, Hawaii, Great Lakes, and western U.S.	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-HFRadarRTVector> | [10.25921/2rkz-8443](https://doi.org/10.25921/2rkz-8443)
-
 Full resolution and low resolution real-time physical trajectory profile data from gliders submitted to NCEI by the IOOS National Glider Data Assembly Center (NGDAC) from 2009-05-17 to present	| <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-NGDAC> | [10.25921/x807-e851](https://doi.org/10.25921/x807-e851)
 
 ## Big Picture Perspective
