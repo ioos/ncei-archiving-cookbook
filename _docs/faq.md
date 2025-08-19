@@ -153,7 +153,7 @@ Our recommendation for variables with no CF `standard_name` is to:
  4. Populate the units attribute with the appropriate descriptive units for the variable. To be CF compliant the units attribute must be in a compliant UDUNITS format.
  5. Remove the standard_name attribute.
 
-#### What should we list in the institution global attribute?
+<!-- #### What should we list in the institution global attribute?
 
 Our recommendation is to populate the institution global attribute with the associated institution that collected the data. This could be a list of institutions which collected the data:
 
@@ -161,4 +161,4 @@ Our recommendation is to populate the institution global attribute with the asso
 
 Or, one institution:
 
-<pre><b>    institution: University of South Florida(USF) Coastal Ocean Monitoring and Prediction System </b></pre>
+<pre><b>    institution: University of South Florida(USF) Coastal Ocean Monitoring and Prediction System </b></pre> -->
