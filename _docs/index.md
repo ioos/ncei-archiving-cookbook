@@ -62,12 +62,24 @@ Below is a diagram of the pathway for the various types of IOOS RA data to get t
 
 ## Formatting Your Data
 
-Whenever possible, data should be recorded or translated to scientific units (instead of raw sensor voltages), and be the best, science-quality version of these data available at the time of submission. Ancillary information that are critical for accurate interpretation and reuse of the data, such as calibration information or temperature and pH scale for sensor measurements, should be noted in the data files themselves or in associated documentation files.&nbsp;In order to fully document the data that has been collected, NCEI provides the following recommendations:
- - Use a consistent and unique file naming convention for each file. (e.g. `carocoops.cap2.buoy_2014_03_28_05.nc`)
+<!-- raw sensor voltages applies to what specific data?-->
+
+Whenever possible, data should be recorded or translated to scientific units (instead of raw sensor voltages), and be the best, science-quality version of these data available at the time of submission. 
+<!-- note in the metadata?-->
+Ancillary information that are critical for accurate interpretation and reuse of the data, such as calibration information or temperature and pH scale for sensor measurements, should be noted in the data files themselves or in associated documentation files. 
+<!-- verify -->
+In order to fully document the data that has been collected, NCEI provides the following recommendations:
+ - Use a consistent and unique file naming convention for each file and explain the file naming convention in the metadata. (e.g. `carocoops.cap2.buoy_2014_03_28_05.nc`)
    - See the [Cookbook FAQ on recommended file naming conventions](https://ioos.github.io/ncei-archiving-cookbook/faq.html) for more details.
  - NCEI highly recommends formatting your data following the [NCEI NetCDF Templates v2.0](https://www.nodc.noaa.gov/data/formats/netcdf/v2.0/). These best practices capture NCEI's experience in providing long-term preservation, scientific quality control, product development, and multiple data re-use beyond its original intent.
+ 
+ <!-- prefer netCDF because of self-documentation feature - contains data and metadata all in the same file -->
+ 
  - Data should be in compliance with the [IOOS compliance checker](https://github.com/ioos/compliance-checker), specifically the [NCEI plugin for the IOOS compliance checker](https://github.com/ioos/cc-plugin-ncei).
  - To see how compliant your files are, use the [Online IOOS Compliance Checker](https://data.ioos.us/compliance/index.html).
+ 
+ <!-- why do this second compliance checker - how does it differ from the first? -->
+ 
  - For time-series station data, NCEI recommends using the [timeSeries Orthogonal template](https://www.nodc.noaa.gov/data/formats/netcdf/v1.1/timeSeriesOrthogonal.cdl). For other types of data follow the [NODC NetCDF decision tree](https://www.nodc.noaa.gov/data/formats/netcdf/v1.1/decision_tree_high_res.pdf).
  - See [Available NetCDF Tools](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/netcdf-tools) for some examples on how to generate, visualize, and use netCDF files.
 
@@ -76,12 +88,22 @@ Whenever possible, data should be recorded or translated to scientific units (in
 ## Providing Data Integrity
 
 The mission of NCEI is to "acquire, process, preserve, and disseminate oceanographic data." Thus, the acquisition of data from data providers is an important part of the NCEI mission. In order to maintain the integrity and to guarantee availability of the data that NCEI acquires, as well as to ensure the security of both NCEI and remote computer systems, NCEI has a few recommendations for standard practice for data acquisition:
+
+<!-- make sure language below is in agreement with information here: https://www.ncei.noaa.gov/archive/atrac/guidelines.html -->
+
  - NCEI uses a 'manifest' to list the data files to be archived, and provide checksums of the files in the package to validate the transfer was successful.
  - The relative path to the data files should be described in the manifest. If the data files are in a directory structure below the manifest file, we need to know where the data files are in relation to the manifest. If no relative path to the data files is described, NCEI will assume that the data and manifest are in the same directory.
+ 
  - There are two options when determining how you want to generate your manifest files:
    1. Generate the manifest files on a per file basis.
+
+<!-- What about checksums for non-netCDF Files? -->
+   
       - One text file for each netCDF file, which contains the checksum followed by a space and the netCDF file name. See the example at [NCEI Acquisition Standards](https://ioos.github.io/ncei-archiving-cookbook/practices.html).
       - The naming convention for this file follows the same name as the netCDF file followed by `.sha`, indicating it is a checksum file.
+
+<!-- update this as necessary -->
+
       - NCEI has been using this construct for the current archive automations with GLOS and SECOORA:
            - For example, the manifest for the netCDF file [`enp.wiwf1.met_2015_06_01_18.nc`](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/enp.wiwf1.met_2015_06_01_18.nc?attredirects=0&d=1) would be [`enp.wiwf1.met_2015_06_01_18.nc.md5`](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/enp.wiwf1.met_2015_06_01_18.nc.md5?attredirects=0&d=1) (using an md5 cryptographic hash value).
            - NCEI's current best practice is to use the SHA-2 family of crytographic hash functions (sha256 or sha384). But, other hash functions can be used as applicable.
