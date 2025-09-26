@@ -8,29 +8,6 @@
 `theme/` - **Do not edit** - the Jekyll theme files containing the look and feel and functionality of the site - sourced from the 
 [ioos/documentation-theme-jekyll](https://github.com/ioos/documentation-theme-jekyll) repo.
 
-# File Template Development
-## Process
-Below are the steps by which a team can iterate on developing a netCDF template.
-
-1. Generate a [CDL](#cdl) file representing the netCDF file contents.
-   1. File names should include a reference to the template type.
-1. Submit the CDL as a Pull Request to this repository `_docs/data/templates`.
-1. Review CDL
-1. Raise issues by selecting the three dots on the line of concern and click "Reference in new issue". Include a description as to what should be changed.
-1. Resolve issues by making the adjustment per the discussion in the issue and submitting a Pull Request via GitHub.
-1. Once the template is finalized, a documentation site should be populated with details on the contents of the template.
-1. Once the website is updated, create a [release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) of the repository.
-   1. Use a tag that is logical for the release. Typically a [semantic version number](https://semver.org/) makes sense.   
-
-## CDL
-* CDL is a Common Data Language (CDL) text representation of a netCDF file, following the specifications provided [here](https://docs.unidata.ucar.edu/nug/current/_c_d_l.html).
-* CDL can be generated from a netCDF file by using the `ncdump` [tool](https://www.unidata.ucar.edu/software/netcdf/workshops/2011/utilities/Ncdump.html), or various other tools.
-* CDL can be used to generate a netCDF file using the `ncgen` [tool](https://linux.die.net/man/1/ncgen).
-* An example working with a CDL file in python can be found in [this notebook](https://github.com/ioos/ioos-atn-data/blob/gh-pages/_docs/notebooks/create_atn_trajectory_template.ipynb)
-* A CDL file can be edited using a simple text editor (like notepad, vim, emacs, or through the GitHub interface).
-
-## Where to contribute
-* Template files are found at `_docs/data/templates`.
 
 # Website
 ## How to Contribute
