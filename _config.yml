@@ -1,7 +1,7 @@
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: NCEI Data Archiving Guidelines for IOOS
+topnav_title: IOOS Guidelines for Archiving Data at NCEI
 # this appears on the top navigation bar next to the home button; replace the value with your site name
 
 site_title: IOOS GitHub Documentation
