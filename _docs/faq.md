@@ -139,4 +139,4 @@ Our recommendation is to populate the institution global attribute with the asso
 
 Or, one institution:
 
-<pre><b>    institution: University of South Florida(USF) Coastal Ocean Monitoring and Prediction System </b></pre>
+<pre><b>    institution: University of South Florida(USF) Coastal Ocean Monitoring and Prediction System </b></pre> -->
