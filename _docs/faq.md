@@ -130,7 +130,6 @@ The person generating the files.
 Any associated projects that are affiliated with the data in that file.
 
 
-```{=html}
 <!-- #### What should we list in the institution global attribute?
 
 Our recommendation is to populate the institution global attribute with the associated institution that collected the data. This could be a list of institutions which collected the data:
