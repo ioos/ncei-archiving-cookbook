@@ -125,33 +125,10 @@ There are various websites available which provide guidance on file name convent
 
 The person generating the files.
 
-#### For the NCEI netCDF template V2.0, how should we populate the various publisher attributes (publisher_name, publisher_institution, publisher_url, publisher_type, publisher_email, publisher_phone)?
-
-Use the Regional Association information to populate the publisher attributes; see below for an example, the information used to populate these attributes are generic entries used to give you an idea of what we are looking for:
-
-<pre><b>
-        publisher_name: NANOOS Data Manager
-        publisher_url: http://nanoos.org
-        publisher_email: dmac@nanoos.org
-        publisher_phone: 555-555-5555
-        publisher_type: position
-        publisher_institution: NANOOS
-</b></pre>
-
 #### What do we list in the projects attribute?
 
 Any associated projects that are affiliated with the data in that file.
 
-#### What is the right thing to do for variables that have no CF `standard_name`?
-
-For example, **phycoerythrin**. The units the instrument reports in are **Relative Fluorescence Units (RFU)**, which are not UDUNITS as far as I can tell.  What is the right thing to do for variables like this?
-
-Our recommendation for variables with no CF `standard_name` is to:
- 1. Double check that it doesn't exist in the [CF standard_name list](https://cfconventions.org/standard-names.html). Keep it mind a variation of the variable could be applicable in some cases.
- 2. (Optional) Request the standard_name to be added to the CF standard_name table. See [this repository](https://github.com/cf-convention/discuss) for instructions on requesting new `standard_name` terms. We can assist with this if you would like to pursue it.
- 3. If the name, or variation of the name, doesn't exist in the list please use the long_name attribute to clearly identify what the variable contains.
- 4. Populate the units attribute with the appropriate descriptive units for the variable. To be CF compliant the units attribute must be in a compliant UDUNITS format.
- 5. Remove the standard_name attribute.
 
 <!-- #### What should we list in the institution global attribute?
 
