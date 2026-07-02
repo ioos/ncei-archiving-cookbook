@@ -4,6 +4,7 @@ keywords: homepage
 tags: [guidelines, archiving, data, NCEI]
 toc: false
 summary: This is a guide for IOOS Regional Association Data Managers
+mermaid: true
 ---
 ## Current archive collections at NCEI
 
@@ -54,10 +55,83 @@ Below is a diagram of the pathway for the various types of IOOS RA data to get t
 
 <!-- ![](./DataArchiveDecisionTreeForGoogle.jpg) -->
 
+<!--
 <a href="./DataArchiveDecisionTreeForGoogle-large.png"><img alt="thumb" src="./DataArchiveDecisionTreeForGoogle-small.png" height="20%"></a>
-
 (click for full-size image)
 {: style="color:blue; font-size: 80%; text-align: center;"}
+-->
+
+```mermaid
+
+%%{
+  init: {
+    'theme': 'light',
+    'themeVariables': {
+      'primaryColor': '#007396',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#003087',
+      'lineColor': '#003087',
+      'secondaryColor': '#007396',
+      'tertiaryColor': '#CCD1D1'
+    },
+   'flowchart': { 'curve': 'basis' }
+  }
+}%%
+
+
+mindmap
+    IOOS RA Data
+        ))Federal Buoy((
+            NDBC
+                NCEI
+                GTS
+        ))Glider((
+            IOOS Glider DAC
+                NCEI
+                GTS
+        ))Satellite Telemetry((
+            IOOS ATN DAC
+                NCEI
+                GTS
+                OBIS
+                GBIF
+        ))Acoustic Telemetry((
+            OTN
+                OBIS
+                NCEI
+                GBIF
+        ))HF-Radar((
+            IOOS HF-Radar DAC
+                NCEI
+                GTS
+        ))Wave Buoy((
+            CDIP
+                NCEI
+                GTS
+        ))Passive Acoustic Monitoring((
+            NCEI
+            OBIS
+            GBIF
+        ))Metadata((
+            IOOS Data Catalog
+                Data.gov
+                NOAA OneStop
+                Commerce.gov
+                Google Dataset Search
+        ))eDNA((
+            NCEI
+            NCBI
+            OBIS
+            GBIF
+        ))non-Federal Buoy((
+            RA
+                NCEI
+        ))other data((
+            RA
+                NCEI
+                OBIS
+                GBIF
+```
 
 ---------------------------------------------------------------------------------------------------------
 
